@@ -1,0 +1,40 @@
+﻿{
+  "AssemblyName": "MachineLearning",
+  "ClassName": "MachineLearning.FraudPredictionEngine",
+  "MethodName": "IsFraudulent",
+  "LibraryPathInLocal": "..\\..\\MachineLearning\\bin\\Debug\\netstandard2.0\\MachineLearning.dll",
+  "Name": "IsFraudulent",
+  "OutputType": "any",
+  "Type": "Scalar",
+  "FunctionInputs": [
+    {
+      "DataType": "nvarchar(max)",
+      "IsConfigurationParameter": null
+    },
+    {
+      "DataType": "nvarchar(max)",
+      "IsConfigurationParameter": null
+    },
+    {
+      "DataType": "float",
+      "IsConfigurationParameter": null
+    },
+    {
+      "DataType": "float",
+      "IsConfigurationParameter": null
+    },
+    {
+      "DataType": "float",
+      "IsConfigurationParameter": null
+    },
+    {
+      "DataType": "float",
+      "IsConfigurationParameter": null
+    },
+    {
+      "DataType": "float",
+      "IsConfigurationParameter": null
+    }
+  ],
+  "ScriptType": "CSharpFunction"
+}

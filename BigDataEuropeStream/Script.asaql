@@ -1,0 +1,3 @@
+﻿SELECT udf.IsFraudulent(Type, NameDest, Amount, OldBalanceOrg, OldBalanceDest, NewBalanceOrig, NewBalanceDest)
+INTO output
+FROM input

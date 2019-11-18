@@ -1,0 +1,30 @@
+﻿{
+  "Sample": "{\"Step\":1,\"Type\":\"PAYMENT\",\"Amount\":1864.28,\"NameOrig\":\"C1666544295\",\"OldBalanceOrg\":21249.0,\"NewBalanceOrig\":19384.72,\"NameDest\":\"M2044282225\",\"OldBalanceDest\":0.0,\"NewBalanceDest\":0.0}",
+  "EventHubProperties": {
+    "ConsumerGroupName": null,
+    "EventHubName": "",
+    "ServiceBusNamespace": "",
+    "SharedAccessPolicyKey": null,
+    "SharedAccessPolicyName": "RootManageSharedAccessKey"
+  },
+  "BlobStorageProperties": null,
+  "IoTHubProperties": null,
+  "BlobReferenceProperties": null,
+  "SqlReferenceInputInfo": null,
+  "InputPartionKey": null,
+  "DataSourceCredentialDomain": "",
+  "Name": "input",
+  "Type": "Data Stream",
+  "DataSourceType": "Event Hub",
+  "Serialization": {
+    "Encoding": "UTF8",
+    "Type": "Json",
+    "FieldDelimiter": null,
+    "Format": null,
+    "SerializationDllPath": null,
+    "SerializationClassName": null,
+    "SerializationDllPathInLocal": null
+  },
+  "CompresssionType": "None",
+  "ScriptType": "Input"
+}
